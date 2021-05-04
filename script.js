@@ -132,27 +132,6 @@ loadImages((images) => {
       case "ArrowLeft":
         queuedAnimations.push("backwardpunch");
     }
-    /*
-    if (key === "ArrowLeft") {
-      queuedAnimations.push("backwardpunch");
-    } else if (key === "ArrowRight") {
-      queuedAnimations.push("forwardpunch");
-    } else if (key === "ArrowUp") {
-      queuedAnimations.push("forwardkick");
-    } else if (key === "ArrowDown") {
-      queuedAnimations.push("backwardkick");
-    }else if (key === "f" || key === "F") {
-        queuedAnimations.push("forward");
-      } else if (key === "F") {
-        queuedAnimations.push("forward");
-      } else if (key === "b" || key === "B") {
-        queuedAnimations.push("backward");
-      }
-    } else if (key === "B") {
-      queuedAnimations.push("backward");
-    }
-    } else if (key === " ") {
-      queuedAnimations.push("block");
-    }*/
+   
   });
 });
