@@ -1,0 +1,41 @@
+/*.  Container */
+.ctr {
+  width: 100%;
+  text-align: center;
+}
+.bg {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+/** backgrpund color*/
+body {
+  background-color: #aad8d3;
+}
+
+/* Background Image  --> Adjusted width of absolute image */
+.bg-img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  border-radius: 1%;
+}
+
+/* Animations Buttons */
+.animation-buttons {
+  text-align: center;
+  justify-content: space-around;
+}
+
+.btn {
+  background-color: rgba(32, 22, 22, 0.904);
+  color: white;
+  margin: 3% 0.5%;
+  border-radius: 25px;
+  border: 2px solid rgb(180, 175, 175);
+  padding: 10px;
+}
+
+.btn:hover {
+  background-color: rgb(107, 107, 15);
+}
